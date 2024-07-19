@@ -1,0 +1,14 @@
+get http://localhost:3000/gencompany/companies
+
+###
+post http://localhost:3000/gencompany/companies
+Content-Type: application/json
+
+{
+  "companyname": "Green Earth Ltd.",
+  "email": "info@greenearth.com",
+  "csrspent": 75000,
+  "geography": "Europe",
+  "domain": "Environment",
+  "ratio": 0.07
+}
