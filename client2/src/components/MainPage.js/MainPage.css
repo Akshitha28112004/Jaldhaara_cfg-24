@@ -1,0 +1,11 @@
+.custom-row {
+    background-color: #0B2B52;
+    color: white;
+  }
+  
+  .custom-row:hover {
+    background-color: #212529; /* Darker shade for hover effect */
+    cursor: pointer;
+    color: white;
+  }
+  
